@@ -1,6 +1,7 @@
 require 'sinatra'
 require './config'
 
+
 get '/' do
-    'hola mundo'
+    erb:bienvenida
 end
